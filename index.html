@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">𝚃𝚘𝚔𝚢𝚘 Food</a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search-box">
+            <input class="search-txt" type="text" placeholder="search">
+            <a class="search-btn" href="#"><img src="/images/magnifying-glass-solid.svg" alt=""></a>
+            
+        </div>
+    </header>
+    <main>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2 class="motto">Sensory indulgence unlocked!!</h2>
+            <!-- <p class="p-1"> always eat good and healthy. even if it costs too much!! </p> -->
+            <a class="btn" href="#"> our menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext"><span>A</span>bout us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere eum voluptas omnis eos odit harum quidem, autem, incidunt enim culpa molestiae quasi, laborum ab nobis praesentium totam voluptatem suscipit corporis eius amet reprehenderit. Rerum hic nisi beatae repellendus maiores sit nemo nobis porro quia, ducimus tenetur, nam molestias accusantium quod assumenda quasi. Quasi eum autem dicta quia, quas omnis ipsum nam eaque dolorum soluta. <br><br> beatae recusandae magnam exercitationem similique saepe amet quibusdam laborum at fugit, hic quos vitae ipsa modi aut! Laudantium voluptates iste saepe suscipit voluptatem necessitatibus possimus labore assumenda asperiores deleniti alias est fuga, quisquam quaerat quam. Repellendus.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="/images/japanese-food.jpg" alt="food" class="img-1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <button class="btn-2"><a href="">read more about our chef's <i class="fa-solid fa-feather"></i></a></button>
+    </div>
+</main>
+<footer class="footer" id="contact">
+    <div class="container-3">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Restaurant</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Tokyo Food program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Address</Address></h4>
+                <ul>
+                    <li><a href="#">location</a></li>
+                    <li><a href="#">our deliver</a></li>
+                    <li><a href="#">fast delivering</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Fallow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
